@@ -25,12 +25,14 @@ TOC=""
 FILES=$(find go -name "*.go" -not -name "template.go" | sort -V)
 for FILE in $FILES; do
   PROBLEM_NUMBER=$(echo "$FILE" | cut -d'/' -f2)
+  URL=$(head -n 1 "$FILE" | cut -d' ' -f2)
+  LANGUAGE="Go"
   LINK="[Solution]($FILE)"
-  TOC="$TOC| $PROBLEM_NUMBER | $LINK |\n"
+  TOC="$TOC| [$PROBLEM_NUMBER]($URL) | $LANGUAGE | $LINK |\n"
 done
 
 if [ -n "$TOC" ]; then
-  TOC_MARKDOWN="| Problem | Solution |\n|---|---|
+  TOC_MARKDOWN="| Problem | Language | Solution |\n|---|---|---|
 $TOC"
   echo -e "$TOC_MARKDOWN" >>"$README_FILE"
 else

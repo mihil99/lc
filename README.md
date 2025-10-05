@@ -8,12 +8,12 @@ This repository contains my solutions to LeetCode problems, organized by program
 
 ## Table of Contents
 
-| Problem | Solution |
-|---|---|
-| 1 | [Solution](go/1/1.go) |
-| 2 | [Solution](go/2/2.go) |
-| 3 | [Solution](go/3/3.go) |
-| 4 | [Solution](go/4/4.go) |
-| 5 | [Solution](go/5/5.go) |
-| 6 | [Solution](go/6/6.go) |
+| Problem | Language | Solution |
+|---|---|---|
+| [1](https://leetcode.com/problems/two-sum/) | Go | [Solution](go/1/1.go) |
+| [2](https://leetcode.com/problems/add-two-numbers/) | Go | [Solution](go/2/2.go) |
+| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Go | [Solution](go/3/3.go) |
+| [4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Go | [Solution](go/4/4.go) |
+| [5](https://leetcode.com/problems/longest-palindromic-substring/) | Go | [Solution](go/5/5.go) |
+| [6](https://leetcode.com/problems/zigzag-conversion/) | Go | [Solution](go/6/6.go) |
 
