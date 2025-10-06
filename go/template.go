@@ -19,6 +19,6 @@ func function(s string) string {
 
 func main() {
 	for _, testCase := range testCases {
-		fmt.Println(function(testCase["s"])
+		fmt.Println(function(testCase["s"]))
 	}
 }
