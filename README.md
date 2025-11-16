@@ -21,4 +21,5 @@ This repository contains my solutions to LeetCode problems, organized by program
 | [9](https://leetcode.com/problems/palindrome-number/submissions/1793267485/) | Go | [Solution](go/9/9.go) |
 | [10](https://leetcode.com/problems/regular-expression-matching/) | Go | [Solution](go/10/10.go) |
 | [11](https://leetcode.com/problems/container-with-most-water/) | Go | [Solution](go/11/11.go) |
+| [12](main) | Go | [Solution](go/12/main.go) |
 
