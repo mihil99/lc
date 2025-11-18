@@ -26,9 +26,11 @@ FILES=$(find go -name "*.go" -not -name "template.go" | sort -V)
 for FILE in $FILES; do
   PROBLEM_NUMBER=$(echo "$FILE" | cut -d'/' -f2)
   URL=$(head -n 1 "$FILE" | cut -d' ' -f2)
+  # Extract slug from URL (e.g., https://leetcode.com/problems/two-sum/ -> two-sum)
+  SLUG=$(echo "$URL" | sed -E 's|.*/problems/([^/]+)/?.*|\1|')
   LANGUAGE="Go"
   LINK="[Solution]($FILE)"
-  TOC="$TOC| [$PROBLEM_NUMBER]($URL) | $LANGUAGE | $LINK |\n"
+  TOC="$TOC| [$PROBLEM_NUMBER - $SLUG]($URL) | $LANGUAGE | $LINK |\n"
 done
 
 if [ -n "$TOC" ]; then
