@@ -22,4 +22,8 @@ This repository contains my solutions to LeetCode problems, organized by program
 | [10](https://leetcode.com/problems/regular-expression-matching/) | Go | [Solution](go/10/10.go) |
 | [11](https://leetcode.com/problems/container-with-most-water/) | Go | [Solution](go/11/11.go) |
 | [12](main) | Go | [Solution](go/12/main.go) |
+| [13](main) | Go | [Solution](go/13/main.go) |
+| [14](main) | Go | [Solution](go/14/main.go) |
+| [15](main) | Go | [Solution](go/15/main.go) |
+| [16](main) | Go | [Solution](go/16/main.go) |
 
